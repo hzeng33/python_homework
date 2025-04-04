@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 # Task 1: Introduction to Pandas - Creating and Manipulating DataFrames
 
@@ -59,7 +60,7 @@ clean_data["Age"] = pd.to_numeric(clean_data["Age"], errors="coerce").ffill().as
 # print(clean_data)
 
 # 4.Convert Salary to numeric and replace known placeholders (unknown, n/a) with NaN
-import numpy as np
+
 clean_data["Salary"]=pd.to_numeric(clean_data["Salary"], errors="coerce").replace({"unknown" : np.nan, "n/a": np.nan})
 # print(clean_data)
 
