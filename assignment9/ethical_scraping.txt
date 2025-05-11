@@ -1,0 +1,23 @@
+Task 5: Ethical Web Scraping
+
+- Which sections of the website are restricted for crawling?
+  Sections of the website that are restricted for crawling are:
+    Disallow: /w/
+    Disallow: /api/
+    Disallow: /trap/
+    Disallow: /wiki/Special:
+    Disallow: /wiki/Spezial:
+    Disallow: /wiki/Spesial:
+    Disallow: /wiki/Special%3A
+    Disallow: /wiki/Spezial%3A
+    Disallow: /wiki/Spesial%3A
+
+- Are there specific rules for certain user agents?
+  user-agents like:
+  MJ12bot
+  Disallow: /
+
+  Mediapartners-Google*
+  Disallow: /
+
+  Some crawlers such as UbiCrawler, DOC, Zao are also entirely disallowed with Disallow: /.
