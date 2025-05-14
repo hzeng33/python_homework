@@ -1,0 +1,6 @@
+Challenges Faced During the Assignment:
+
+Initially I attempted to use Microsoft Edge but encountered persistent "session not created" errors due to version mismatches between EdgeBrowser and EdgeDriver. To resolve this, I installed Google Chrome and used ChromeDriverManager for automatic driver compatibility. This resolved version conflicts immediately.
+
+I also had a hard time to generate the XPath task 6. The Top 10 vulnerabilities were nested in a complex structure. 
+The heading used `<h2 id="top-10-web-application-security-risks">` and the list of risks was in a `<ul>` tag below the heading but not as a direct sibling. So I used a relative XPath with `following::` to jump to the first `<ul>` after the `<h2>`.
