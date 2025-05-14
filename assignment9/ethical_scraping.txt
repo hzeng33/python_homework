@@ -21,3 +21,9 @@ Task 5: Ethical Web Scraping
   Disallow: /
 
   Some crawlers such as UbiCrawler, DOC, Zao are also entirely disallowed with Disallow: /.
+
+- Reflect on why websites use robots.txt and write 2-3 sentences explaining its purpose and how it promotes ethical scraping.
+ Websites use robots.txt file to tell web crawlers which parts of the site are allowed or not allowed to access.
+ By publishing these instructions, site owners can prevent automated bots from overloading servers and indexing
+ sensitive content. Obeying robots.txt helps developers practice ethical scraping by following the site owner's 
+ rules and maintaining fair use of resources.
