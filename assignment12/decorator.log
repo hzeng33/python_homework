@@ -1,0 +1,15 @@
+function: hello_world
+ positional parameters: none
+ keyword parameters: none
+ return: None
+
+function: take_args
+ positional parameters: [1, 2, 3, 'Hello', 4.5]
+ keyword parameters: none
+ return: True
+
+function: take_kwargs
+ positional parameters: none
+ keyword parameters: {'name': 'May', 'age': 28, 'city': 'New York'}
+ return: <function logger_decorator at 0x000001C4DA513920>
+
